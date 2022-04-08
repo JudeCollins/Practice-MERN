@@ -18,7 +18,7 @@ import ReviewsDAO from '../dao/reviewsDAO.js'
                 review,
                 date
             )
-            res.json({ status: "success"}) 
+            res.json({ status: "success "}) 
          }catch(e){
              res.status(500).json({ error: e.message})
          }
